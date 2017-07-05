@@ -1,8 +1,10 @@
 <ul>
-  <%= @room.messages.each do |message| %>
+  <% @room.messages.each do |message| %>
   <li>
     <%= message.username %>
     <%= message.content %>
   </li>
   <% end %>
 </ul>
+goufvkyciycf
+<%= render 'messages/form' %>

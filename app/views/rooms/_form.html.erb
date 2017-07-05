@@ -1,0 +1,5 @@
+
+<%= form_for [Room.new] do |f| %>
+  <%= f.text_field :name %>
+  <%= f.submit "Create Room", class: 'btn btn-secondary',placeholder: "Room Name" %>
+<% end %>
